@@ -6,7 +6,7 @@ module Zygote
         Process.wait pid
         `stty #{saved}`
         puts "Continue (n to stop)? "
-	      exit! if gets[0] == ?n
+        exit! if gets[0] == ?n
       else
         break
       end
